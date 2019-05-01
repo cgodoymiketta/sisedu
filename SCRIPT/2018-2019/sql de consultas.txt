@@ -1,0 +1,24 @@
+recuperar el grupo
+
+SELECT e.espcodigo, c.curcodigo, g.grucodigo, e.espdescripcion, c.curdescripcion, e.espseccion, e.esporden, c.curorden
+FROM grp g, spcldd e, crs c
+WHERE g.anocodigo =2
+AND g.espcodigo = e.espcodigo
+AND g.curcodigo = c.curcodigo
+ORDER BY e.espseccion, e.esporden, c.curorden
+LIMIT 30 , 40
+
+
+RECUPERAR LISTADOS DEL AÑO PASADO
+
+
+SELECT ei.inescodigo, p.perapellidos, p.pernombres, p.percodigo, p.percc, e.espcodigo, c.curcodigo, g.grucodigo, e.espdescripcion, c.curdescripcion, e.espseccion, e.esporden, c.curorden
+FROM mtrcl m, nsttcnstdnt ei, grp g, psn p, spcldd e, crs c
+WHERE m.grucodigo = g.grucodigo
+AND g.espcodigo = e.espcodigo
+AND g.curcodigo = c.curcodigo
+AND m.anocodigo =1
+AND m.grucodigo = g.grucodigo
+AND ei.percodigo = p.percodigo
+AND m.inescodigo = ei.inescodigo
+ORDER BY e.esporden, c.curorden, p.perapellidos, p.pernombres

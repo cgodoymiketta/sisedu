@@ -1,0 +1,8 @@
+"PERFCODIGO";"PERFNOMBRE";"PERFDESCRIPCION";"PERFESTADO"
+"1";"ADMINISTRADOR";"Tiene control total a las opciones del Sistema.";"1"
+"2";"SECRETARIA";"Tiene control total a la parametrizacion del sistema";"1"
+"3";"RECTORA";"Tiene control especial sobre las modificaciones de datos ya ingresados";"1"
+"4";"DOCENTES";"Acceso basico a los reportes y al ingreso de notas";"1"
+"5";"VICERRECTORA";"Acceso a todos los reportes de calificaciones";"0"
+"6";"DECE";"Acceso a los datos personales de los estudiantes";"1"
+"7";"INSPECTOR GENERAL";"Revisa las asistencias, faltas y fugas generales";"1"

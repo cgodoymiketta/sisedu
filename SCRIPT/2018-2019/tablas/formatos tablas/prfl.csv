@@ -1,0 +1,5 @@
+"PERFCODIGO";"PERFNOMBRE";"PERFDESCRIPCION";"PERFESTADO"
+"1";"ADMINISTRADOR";"Tiene control total a las opciones del Sistema.";"1"
+"2";"SECRETARIA";"Tiene control total a la parametrizacion del sistema";"1"
+"3";"DIRECTORA";"Tiene control especial sobre las modificaciones de datos ya ingresados";"1"
+"4";"DOCENTES";"Acceso basico a los reportes y al ingreso de notas";"0"
